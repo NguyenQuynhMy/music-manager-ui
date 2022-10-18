@@ -1,0 +1,39 @@
+
+:root{
+    --primary-color: rgb(240,128,128);
+    --text-color: 	#F5F5F5;
+  }
+.title{
+    float: left;
+    color: var(--text-color);
+}
+  .btnAdd{
+      float: right;
+      font-size: 30px;
+      margin-left: 20px;
+      :hover{
+        color: var(--primary-color);
+        cursor: pointer;
+      }
+  }
+  
+//   .btnDeletesong{
+//       float: right;
+//       font-size: 30px;
+//       :hover{
+//         cursor: pointer;
+//         color: var(--primary-color);
+//       }
+//   }
+//   .txtNamesong{
+//       float: left;
+//       color: var(--text-color);
+//   }
+//   .avatar{
+//       width: 300px;
+//       height: 300px;
+//       border-radius: 50%;
+//   }
+//   .submit{
+//       margin: auto;
+//   }
